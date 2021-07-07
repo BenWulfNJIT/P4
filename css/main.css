@@ -1,0 +1,158 @@
+/* DEVELOPER: Benjamin Wulf, IS117-040, Spring 2021 */
+body{
+    /* background-image: linear-gradient(to bottom,rgb(114, 148, 71), rgb(81, 119, 31), rgb(43, 66, 13)); */
+    background-image: linear-gradient(to bottom,rgb(187, 206, 164), rgb(149, 172, 119), rgb(149, 172, 119), rgb(130, 175, 78));
+
+    /* background-color: rgb(81, 119, 31); */
+}
+nav{
+    font-size: 15pt;
+}
+.card{
+    margin-top: 5em;
+    margin-left: 2em;
+    margin-right: 2em;
+min-width: 5em;
+/* width:100%; */
+max-width: 40em;
+background-color: rgba(214, 228, 240, 0.733);
+box-shadow: 5px 5px 10px rgb(53, 53, 53);
+
+}
+.card-header{
+    background-color: rgba(184, 199, 212, 0.733);
+}
+#carousel{
+    border-radius: 5px;
+    border:1px solid rgb(29, 29, 29);
+    width:100%;
+    /* height: 50%; */
+    box-shadow: 5px 8px 15px black;
+}
+/* #carousel img{
+    width: 100%;
+    height: 3px;
+} */
+#logo{
+    width:10em;
+    height: auto;
+    margin:1.5em 0;
+    border-radius: 50%;
+    box-shadow: 3px 3px 20px black;
+
+}
+#logo:hover{
+    /* border:3px solid black; */
+    box-shadow: 3px 3px 30px black;
+
+}
+hr{
+    border-top:7px double black;
+    width:100%;
+    position:absolute;
+    margin:0;
+    transform: translateY(104px);
+    z-index: -1;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: aliceblue;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 0.5rem;
+    z-index: 100;
+}
+#contact_form{
+    background-color: rgba(214, 228, 240, 0.733);    /* margin:3em; */
+    padding:3em;
+    border-radius: 5px;
+    /* border:1px solid black; */
+    box-shadow: 5px 5px 15px rgb(36, 36, 36);
+}
+#gallery_pics {
+margin:0em 2em 2em 2em;
+align-items: center;
+}
+#gallery_pics img{
+    margin:2em 1em;
+    width:12em;
+    height: auto;
+    background-color: aliceblue;
+    padding:2px;
+    border-radius: 1px;
+    box-shadow: 3px 3px 30px rgb(43, 43, 43);
+
+}
+#gallery_pics img:hover{
+    box-shadow: 3px 3px 35px rgb(0, 0, 0);
+
+}
+#gallery_background{
+    /* background-color: rgba(171, 215, 233, 0.438); */
+    background-color: rgba(214, 228, 240, 0.733);
+        box-shadow: 3px 3px 30px rgb(43, 43, 43);
+
+    margin-bottom: 10em;
+    border-radius: 20px;
+    border:1px solid rgb(44, 44, 44);
+}
+iframe{
+    margin-bottom: 100px;
+    padding:1px;
+    background-color: rgb(58, 58, 58);
+
+    /* border:2px solid rgb(43, 43, 43); */
+}
+#hours_border{
+    border-radius: 50px;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    margin-bottom: 100px;
+    /* background-color: rgba(204, 230, 179, 0.603); */
+    background-color: rgba(214, 228, 240, 0.733);
+    padding-top: 30px;
+}
+#coffee_blurb{
+    width:70%;
+    border-radius: 15px;
+    border-left: 1px solid black;
+    border-right:1px solid black;
+    background-color: rgba(214, 228, 240, 0.733);
+    margin-bottom:2em;
+    padding:10px;
+    box-shadow: 3px 3px 10px rgb(43, 43, 43);
+
+}
+#store_policy{
+    width:40%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(214, 228, 240, 0.733);
+    padding:10px;
+    border-radius: 35px;
+    margin-bottom: 100px;
+    border:5px double rgb(170, 131, 32);
+    box-shadow: 3px 3px 10px rgb(43, 43, 43);
+}
+#store_policy h2{
+    text-align: center;
+}
+#store_policy li{
+    /* line-height: 2.3em; */
+    font-size: 13pt;
+    margin-bottom: 1.5em;
+    font-weight: 400;
+}
+#clothing {
+    background-color: rgba(214, 228, 240, 0.733);
+    border-radius: 30%;
+    border:3px dashed rgb(238, 238, 136);
+    line-height: 2.5em;
+    padding: 15px;
+    margin-bottom: 100px;
+}
